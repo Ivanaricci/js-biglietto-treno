@@ -18,5 +18,9 @@ else if(età > 65){
     messaggio = `hai diritto al 40% di sconto. Il prezzo del tuo biglietto è ${prezzo} euro`;
 }
 
+else{
+    messaggio = `Il prezzo del tuo biglietto è ${prezzo} euro`;
+}
+
 
 console.log(messaggio)
